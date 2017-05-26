@@ -1,8 +1,8 @@
 <?php
-	$DB = mysqli_connect('162.243.23.150','user','password','hellodb');
-	if (mysqli_connect_errno()) {
-		echo "Failed ". mysqli_connect_error();
-	}
+	$DB = mysqli_connect('FirstTestDroplet','user','password','hellodb');
+//	if (mysqli_connect_errno()) {
+//		echo "Failed ". mysqli_connect_error();
+//	}
 
 //	$query = "select *
 //		from integers
