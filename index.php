@@ -8,6 +8,6 @@
 	$result = $DB->query($query);
 	$result = $result->fetch_assoc();
 
-	echo $result['value'];	
+	echo 'running';	
 
 ?>
