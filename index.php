@@ -1,5 +1,5 @@
 <?php
-	$DB = mysqli_connect('FirstTestDroplet','user','password','hellodb');
+	$DB = mysqli_connect('localhost','user','password','hellodb');
 //	if (mysqli_connect_errno()) {
 //		echo "Failed ". mysqli_connect_error();
 //	}
