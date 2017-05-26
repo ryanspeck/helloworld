@@ -1,5 +1,5 @@
 <?php
-	$DB = mysqli_connect('localhost','user','password','hellodb')
+	$DB = mysqli_connect('localhost','user','password')
 		or die("Error " . mysqli_error($DB));
 //	if (mysqli_connect_errno()) {
 //		echo "Failed ". mysqli_connect_error();
