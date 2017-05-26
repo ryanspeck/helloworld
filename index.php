@@ -1,5 +1,5 @@
 <?php
-//	$DB = mysqli_connect('localhost','user','password','hellodb');
+	$DB = mysqli_connect('localhost','user','password','hellodb');
 
 //	$query = "select *
 //		from integers
